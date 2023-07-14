@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Digital Resume</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/stylesheet.css">
+  </head>
+  <body>
+    <nav>
+      <a href="#Education">Education</a>
+      <a href="#interest">Interest</a>
+      <a href="#Skills-and-competencies">Skills and competencies</a>
+      <a href="#Contact-Info">Contact Info</a>
+      <a href="#Profile">Profile</a>
+    </nav>
+    <div class="container" id="top">
+      <div class="left-side">
+        <div class="profile-text">
+          <div class="picture">
+            <img class="profile-picture" src="./images/Misoso.png">
+          </div>
+          <h2>Misokuhle Mdlankomo<br><span>Software Developer</span></h2>
+        </div>
+        <footer>
+          <div class="contactinfo" id="Contact-Info">
+            <h3 class="title" >Contact Info</h3> 
+            <ul>
+              <li>
+                <span class="icon"><i class="fa fa-phone" aria-hidden="true"></i></span>
+                <span class="text"></span>084 389 4539</span>
+              </li>
+              <li>
+                <span class="icon"><i class="fa fa-linkedin" aria-hidden="true"></i></span>
+                <span class="text"><a href="http://www.LinkedIn.com">LinkedIn</a></span>
+              </li>
+              <li>
+                <span class="icon"><i class="fa fa-github" aria-hidden="true"></i></span>
+                <span class="text"><a href="https://github.com/Misokuhle5">Github Account</a></span>
+              </li>
+              <li>
+                <span class="icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                <span class="text"><p>misom1300@gmail.com</p></span>
+              </li>
+            </ul>
+          </div>
+        </footer>
+  
+        <div class="contactinfo Education" id="Education">
+          <h3 class="title" >Education</h3> 
+          <ul>
+            <li>
+              <h2>Intro to web at <a href="https://www.codespace.co.za/programs/?matchtype=b&device=c&keyword=code%20space&adgroupid=81088003381&utm_campaign=8148639553&utm_source=google&utm_medium=cpc&gclid=Cj0KCQjw4s-kBhDqARIsAN-ipH2Vg2P4XWxAG8L3xDhfaYC4eDiLw8TF1bXEIlnqa09oiVNLUz8EH2oaAvJ9EALw_wcB">Codespace Academy</a></h2>
+              <h4>Year matriculated:</h4>
+              <p>2021</p>
+              <h4>Last school attended:</h4>
+              <p>Royal Academy</p>
+              <h4>Subjects passed:</h4>
+              <p>Mathematics, Physical Science, Life Science<br>Accounting, English Home Language, Isixhosa FAL<br>Life Orientation</p>
+              <h4>Membership:</h4>
+              <p>Debate Club</p>
+              <p>School Prefect</p> 
+            </li>
+          </ul>
+        </div>
+  
+        <form action="https://formsubmit.co/misom1300@gmail.com" method="post">
+          <select name="_subject" id="_subject">
+            <option value="Interview Opportunity">Interview Opportunity</option>
+            <option value="Recruiter">Recruiter</option>
+            <option value="Website Feedback">Website Feedback</option>
+          </select>
+          <textarea name="message" id="text" cols="10" rows="5" placeholder="name (and surname optional)"></textarea>
+          <textarea name="message" id="text" cols="5" rows="5" placeholder="email address (required)"></textarea>
+          <textarea name="message" id="text" cols="30" rows="10" placeholder="message here (optional)"></textarea>
+          <fieldset>
+            <legend>Sex<span aria-label="required">(required)</span></legend>
+            <input type="radio" required name="Sex" id="r1" value="female"><label for="r1">female</label>
+            <input type="radio" required name="Sex" id="r2" value="male"><label for="r2">male</label>
+          </fieldset>
+          <input class="submit" type="submit" value="send">
+        </form>
+      </div>
+  
+      <div class="right-side">
+        <div class="about" id="Profile">
+          <h2 class="title2">Profile</h2>
+          <p>Soon to be a Software Developer graduate, with a passion to further the mission of a company and utilize my skills.
+            Bringing forth a positive attitude and the willingness and motivation to learn new programs.</p>
+        </div>
+  
+        <div class="about" id="Skills-and-competencies">
+          <h2 class="title2">Skills and competencies</h2>
+          <div class="box">
+            <h4>Technical Skills</h4>
+            <p>Proficient in:</p>
+            <ul>
+              <li>MS Office package Word, Excel, and PowerPoint.</li>
+            </ul>
+            <h4>Personal competencies</h4>
+            <p>Possess the following competencies:</p>
+            <ul>
+              <li>Good Communication</li>
+              <li>Intra and Interpersonal skills</li>
+              <li>Time Keeping</li>
+              <li>Hard working and fast learning</li>
+              <li>Critical-thinking</li>
+              <li>Leadership skills</li>
+            </ul>  
+          </div>
+  
+          <div class="about interest" id="interest">
+            <h2 class="title2">Interest</h2>
+           <ul>
+            <li><i class="fa fa-gamepad" aria-hidden="true"></i>Gaming</li>
+            <li><i class="fa fa-cutlery" aria-hidden="true"></i>Cooking</li>
+            <li><i class="fa fa-book" aria-hidden="true"></i>Reading</li>
+            <li><i class="fa fa-microphone" aria-hidden="true"></i>Singing</li>
+           </ul> 
+          </div>
+  
+          <div class="top">
+            <button id="myBtn"><a href="#top" style="color: white;">Top</a></button>
+          </div>                
+        </div>
+      </div>
+    </div>
+ </body>
+</html>
